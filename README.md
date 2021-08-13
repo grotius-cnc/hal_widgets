@@ -4,3 +4,22 @@ hal widgets to create a gui app.
 
 - Drag and drop hal widgets
 
+To install the plugin :
+
+1. Create a .so simlink to : /opt/qt-creator/Tools/QtCreator/lib/Qt/plugins/designer
+2. Create a new qt gui project, the .pro file requirements :
+
+INCLUDEPATH+=/home/user/Qhalwidgets
+LIBS+=-L/opt/qt-creator/Tools/QtCreator/lib/Qt/plugins/designer -lhalwidgetsplugin
+
+#Lcnc
+INCLUDEPATH+=   /opt/linuxcnc/include/ \
+                /opt/linuxcnc/src/hal/ \
+                /opt/linuxcnc/src/utils/ \
+                /opt/linuxcnc/src/hal/utils/ \
+                /opt/halview/ \
+
+LIBS+= -L/opt/linuxcnc/lib/
+LIBS+= -L/opt/linuxcnc/tcl/
+LIBS+= -L/opt/halview/
+LIBS+= -llinuxcnchal
