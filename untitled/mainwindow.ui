@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>332</width>
+    <height>449</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="button" name="button_hal_bit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>240</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="property_buttonstate" stdset="0">
+     <enum>button::TOGGLE_ON</enum>
+    </property>
+    <property name="property_icon_pressed" stdset="0">
+     <iconset>
+      <normaloff>../Qhalwidgets/icons/system-software-update.png</normaloff>../Qhalwidgets/icons/system-software-update.png</iconset>
+    </property>
+    <property name="property_icon_size_pressed" stdset="0">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+    <property name="property_hal_name" stdset="0">
+     <string>button_hal_bit</string>
+    </property>
+    <property name="property_hal_type" stdset="0">
+     <enum>button::HAL_BIT_OUT</enum>
+    </property>
+    <property name="property_hal_value_pressed" stdset="0">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="button" name="button_hal_float">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>300</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="property_color_pressed" stdset="0">
+     <color>
+      <red>85</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="property_color_released" stdset="0">
+     <color>
+      <red>111</red>
+      <green>111</green>
+      <blue>111</blue>
+     </color>
+    </property>
+    <property name="property_hal_name" stdset="0">
+     <string>button_hal_float</string>
+    </property>
+    <property name="property_hal_type" stdset="0">
+     <enum>button::HAL_FLOAT_OUT</enum>
+    </property>
+    <property name="property_hal_value_pressed" stdset="0">
+     <string>1.25</string>
+    </property>
+   </widget>
+   <widget class="button" name="button_hal_float_param_rw">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="property_hal_name" stdset="0">
+     <string>button_hal_float_param_rw</string>
+    </property>
+    <property name="property_hal_type" stdset="0">
+     <enum>button::HAL_FLOAT_PARAM_RW</enum>
+    </property>
+    <property name="property_hal_value_pressed" stdset="0">
+     <string>550</string>
+    </property>
+    <property name="property_hal_value_released" stdset="0">
+     <string>5+5</string>
+    </property>
+   </widget>
+   <widget class="button" name="button_hal_s32">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>211</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="property_hal_name" stdset="0">
+     <string>button_hal_s32</string>
+    </property>
+    <property name="property_hal_type" stdset="0">
+     <enum>button::HAL_S32_OUT</enum>
+    </property>
+    <property name="property_hal_value_pressed" stdset="0">
+     <string>1</string>
+    </property>
+    <property name="property_hal_value_released" stdset="0">
+     <string>-1</string>
+    </property>
+   </widget>
+   <widget class="button" name="button_hal_u32_toggle">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>170</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="property_buttonstate" stdset="0">
+     <enum>button::TOGGLE_ON</enum>
+    </property>
+    <property name="property_hal_name" stdset="0">
+     <string>button_hal_u32_toggle</string>
+    </property>
+    <property name="property_hal_type" stdset="0">
+     <enum>button::HAL_U32_OUT</enum>
+    </property>
+    <property name="property_hal_value_pressed" stdset="0">
+     <string>20</string>
+    </property>
+   </widget>
+   <widget class="button" name="button_port">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>210</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="property_hal_name" stdset="0">
+     <string>button_port</string>
+    </property>
+    <property name="property_hal_type" stdset="0">
+     <enum>button::HAL_PORT_OUT</enum>
+    </property>
+    <property name="property_hal_value_pressed" stdset="0">
+     <string>send_my_string</string>
+    </property>
+   </widget>
+   <widget class="button" name="button_hal_float_toggle">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="property_buttonstate" stdset="0">
+     <enum>button::TOGGLE_ON</enum>
+    </property>
+    <property name="property_color_pressed" stdset="0">
+     <color>
+      <red>85</red>
+      <green>255</green>
+      <blue>0</blue>
+     </color>
+    </property>
+    <property name="property_hal_name" stdset="0">
+     <string>button_hal_float_toggle</string>
+    </property>
+    <property name="property_hal_type" stdset="0">
+     <enum>button::HAL_FLOAT_OUT</enum>
+    </property>
+    <property name="property_hal_value_pressed" stdset="0">
+     <string>1025</string>
+    </property>
+    <property name="property_hal_value_released" stdset="0">
+     <string>2025</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>332</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>button</class>
+   <extends>QWidget</extends>
+   <header>button.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
