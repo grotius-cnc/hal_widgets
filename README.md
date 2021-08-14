@@ -1,4 +1,6 @@
 
+To view or refresh installed plugins :
+Menubar -> Tools -> Form editor -> About qt designer plugins
 
 https://user-images.githubusercontent.com/44880102/129457468-5d5a409c-d07a-4fa6-9d05-1694b3d1d3b6.mp4
 
