@@ -1,4 +1,4 @@
-CONFIG      += core plugin debug_and_release
+CONFIG      += core svg plugin debug_and_release
 TARGET      = $$qtLibraryTarget(halwidgetsplugin)
 TEMPLATE    = lib
 

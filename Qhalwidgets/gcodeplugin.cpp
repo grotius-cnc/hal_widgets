@@ -31,7 +31,7 @@ QWidget *gcodePlugin::createWidget(QWidget *parent)
 
 QString gcodePlugin::name() const
 {
-    return QLatin1String("Hal Gcode");
+    return QLatin1String("gcode");
 }
 
 QString gcodePlugin::group() const

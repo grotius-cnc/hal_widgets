@@ -31,7 +31,7 @@ QWidget *labelPlugin::createWidget(QWidget *parent)
 
 QString labelPlugin::name() const
 {
-    return QLatin1String("Hal Label");
+    return QLatin1String("Label");
 }
 
 QString labelPlugin::group() const

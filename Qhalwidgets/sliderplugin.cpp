@@ -31,7 +31,7 @@ QWidget *sliderPlugin::createWidget(QWidget *parent)
 
 QString sliderPlugin::name() const
 {
-    return QLatin1String("Hal Slider");
+    return QLatin1String("slider");
 }
 
 QString sliderPlugin::group() const

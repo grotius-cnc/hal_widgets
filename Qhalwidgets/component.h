@@ -18,6 +18,7 @@ class component : public QWidget
 
 public:
     component(QWidget *parent = 0);
+    ~component();
 
 private:
     QGridLayout *layout;

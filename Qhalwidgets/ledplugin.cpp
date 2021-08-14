@@ -31,7 +31,7 @@ QWidget *ledPlugin::createWidget(QWidget *parent)
 
 QString ledPlugin::name() const
 {
-    return QLatin1String("Hal Led");
+    return QLatin1String("led");
 }
 
 QString ledPlugin::group() const

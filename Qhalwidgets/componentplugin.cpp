@@ -31,7 +31,7 @@ QWidget *componentPlugin::createWidget(QWidget *parent)
 
 QString componentPlugin::name() const
 {
-    return QLatin1String("Hal Component");
+    return QLatin1String("component");
 }
 
 QString componentPlugin::group() const

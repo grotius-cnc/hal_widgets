@@ -1,5 +1,53 @@
 <RCC>
-    <qresource prefix="/" >
-
+    <qresource prefix="/">
+        <file>icons/3d.svg</file>
+        <file>icons/applications-system.png</file>
+        <file>icons/arrow-down.png</file>
+        <file>icons/back.svg</file>
+        <file>icons/bottom.svg</file>
+        <file>icons/debug.svg</file>
+        <file>icons/delete.svg</file>
+        <file>icons/document-edit.png</file>
+        <file>icons/document-new.png</file>
+        <file>icons/document-open.png</file>
+        <file>icons/document-save.png</file>
+        <file>icons/draw-arrow-back.png</file>
+        <file>icons/draw-arrow-down.png</file>
+        <file>icons/draw-arrow-forward.png</file>
+        <file>icons/draw-arrow-up.png</file>
+        <file>icons/emergency-stop</file>
+        <file>icons/empty.svg</file>
+        <file>icons/front.svg</file>
+        <file>icons/help-browser.png</file>
+        <file>icons/layer.svg</file>
+        <file>icons/left.svg</file>
+        <file>icons/mirror.svg</file>
+        <file>icons/move.svg</file>
+        <file>icons/move_down.svg</file>
+        <file>icons/move_left.svg</file>
+        <file>icons/move_left_down.svg</file>
+        <file>icons/move_left_up.svg</file>
+        <file>icons/move_right.svg</file>
+        <file>icons/move_right_down.svg</file>
+        <file>icons/move_right_up.svg</file>
+        <file>icons/move_up.svg</file>
+        <file>icons/new.svg</file>
+        <file>icons/open.svg</file>
+        <file>icons/opinion-no.png</file>
+        <file>icons/opinion-okay.png</file>
+        <file>icons/preferences-other.png</file>
+        <file>icons/refresh.png</file>
+        <file>icons/right.svg</file>
+        <file>icons/rotate.svg</file>
+        <file>icons/save.svg</file>
+        <file>icons/save_as.svg</file>
+        <file>icons/system-software-update.png</file>
+        <file>icons/top.svg</file>
+        <file>icons/view-refresh.png</file>
+        <file>icons/walle.jpeg</file>
+        <file>icons/zoom_extend.svg</file>
+        <file>icons/zoom_min.svg</file>
+        <file>icons/zoom_plus.svg</file>
+        <file>icons/zoom_window.svg</file>
     </qresource>
 </RCC>
