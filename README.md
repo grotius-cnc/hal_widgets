@@ -1,4 +1,14 @@
 
+The licence includes, this source code or any of it contents may not be used by the following blacklisted companies:
+1. Youtube
+2. Google
+3. Twitter
+The licence includes, this source code or any of it contents may not be used by the following blacklisted countries violating human rights:
+1. France
+2. Greece
+3. UK
+4. US
+
 To view or refresh installed plugins :
 Menubar -> Tools -> Form editor -> About qt designer plugins
 
@@ -48,3 +58,5 @@ Alternative Bullseye :
 [![Download Linux Debian 11 Bullseye Rtos  ](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/linux-debian-bullseye-11-rtos/files/latest/download)
 
 [![Download Linux Debian 11 Bullseye Rtos  ](https://img.shields.io/sourceforge/dt/linux-debian-bullseye-11-rtos.svg)](https://sourceforge.net/projects/linux-debian-bullseye-11-rtos/files/latest/download)
+
+[![Download Linux Debian 11 Bullseye Rtos  ](https://img.shields.io/sourceforge/dm/linux-debian-bullseye-11-rtos.svg)](https://sourceforge.net/projects/linux-debian-bullseye-11-rtos/files/latest/download)
