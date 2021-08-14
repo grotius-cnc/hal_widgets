@@ -26,7 +26,7 @@ Work in progress. Have a look at the button.h / button.cpp file.
 hal widgets to create a gui app. 
 
 - Drag and drop hal widgets
-- No coding required, just drop the widget (rename widget) and run the app.
+- No coding required, just drop the widget, rename the widget, and run the app.
 - Have fun !
 
 To install the plugin :
