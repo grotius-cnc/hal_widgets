@@ -25,7 +25,6 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_toggled(bool checked);
 
 private:
     Ui::MainWindow *ui;

@@ -26,10 +26,6 @@
     <property name="property_buttonstate" stdset="0">
      <enum>button::TOGGLE_ON</enum>
     </property>
-    <property name="property_icon_pressed" stdset="0">
-     <iconset>
-      <normaloff>../Qhalwidgets/icons/system-software-update.png</normaloff>../Qhalwidgets/icons/system-software-update.png</iconset>
-    </property>
     <property name="property_icon_size_pressed" stdset="0">
      <size>
       <width>40</width>
@@ -50,7 +46,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>300</y>
+      <y>350</y>
       <width>171</width>
       <height>41</height>
      </rect>
@@ -196,6 +192,29 @@
      <string>2025</string>
     </property>
    </widget>
+   <widget class="button" name="E-stop">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>210</y>
+      <width>131</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="property_icon_released" stdset="0">
+     <iconset resource="icon.qrc">
+      <normaloff>:/icons/emergency-stop</normaloff>:/icons/emergency-stop</iconset>
+    </property>
+    <property name="property_icon_size_released" stdset="0">
+     <size>
+      <width>80</width>
+      <height>80</height>
+     </size>
+    </property>
+    <property name="property_hal_name" stdset="0">
+     <string>E-stop</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -216,6 +235,8 @@
    <header>button.h</header>
   </customwidget>
  </customwidgets>
- <resources/>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
  <connections/>
 </ui>

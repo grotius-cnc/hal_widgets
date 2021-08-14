@@ -7,8 +7,6 @@
 #include <utility>
 #include <algorithm>
 
-
-
 void dump_props(QObject *o);
 
 MainWindow::MainWindow(QWidget *parent)
@@ -21,25 +19,15 @@ MainWindow::MainWindow(QWidget *parent)
 
     QList<QObject*> list = centralWidget()->findChildren<QObject*>();
     foreach (auto obj, list) {
-        //if(obj->property("property_hal_type")!="NONE"){
-        //    obj->setProperty("property_hal_live_mode",0);
-        dump_props(obj);
-        std::cout<<""<<std::endl;
+        // dump_props(obj); // Prints widget info.
+        // std::cout<<""<<std::endl;
 
         auto *o = obj->metaObject();
         if(o->className()==QString("button")){
-            std::cout<<"button class found"<<std::endl;
-
+            // std::cout<<"button class found"<<std::endl;
             obj->setProperty("property_hal_live_mode", QVariant(bool(true)));
-            //auto value=obj->property("property_hal_value_released");
-            //obj->setProperty("property_hal_value_released", value);
-
-
         }
-        //}
-
     }
-
 }
 
 MainWindow::~MainWindow()
@@ -64,9 +52,4 @@ void dump_props(QObject *o)
         for (auto &i : v)
             qDebug() << i.first << "=>" << i.second;
     } while ((mo = mo->superClass()));
-}
-
-void MainWindow::on_pushButton_toggled(bool checked)
-{
-
 }
