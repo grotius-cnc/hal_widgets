@@ -6,7 +6,7 @@ The licence includes, this source code or any of it contents may not be used by 
   3. Twitter
 
 
-The licence includes, this source code or any of it contents may not be used by the following blacklisted countries violating human rights:
+The licence includes, this source code or any of it contents may not be used by the following blacklisted countries, violating human rights :
 
   1. France
   2. Greece
@@ -48,7 +48,8 @@ LIBS+= -L/opt/halview/
 LIBS+= -llinuxcnchal
 
 
-Above program is made by Linux Pro
+
+The above app is made by Linux Proffesional 11 :
 
 [![Download Linux 11 Professional ](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/linux-11-pro/files/latest/download)
 
@@ -57,7 +58,7 @@ Above program is made by Linux Pro
 [![Download Linux 11 Professional ](https://img.shields.io/sourceforge/dm/linux-11-pro.svg)](https://sourceforge.net/projects/linux-11-pro/files/latest/download)
 
 
-Alternative Bullseye :
+Alternative Linux Bullseye 11 :
 
 [![Download Linux Debian 11 Bullseye Rtos  ](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/linux-debian-bullseye-11-rtos/files/latest/download)
 
