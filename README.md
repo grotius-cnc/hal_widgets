@@ -1,13 +1,17 @@
 
-The licence includes, this source code or any of it contents may not be used by the following blacklisted companies:
-1. Youtube
-2. Google
-3. Twitter
+The licence includes, this source code or any of it contents may not be used by the following blacklisted companies, discriminating their own "code of conduct" :
+
+  1. Youtube
+  2. Google
+  3. Twitter
+
+
 The licence includes, this source code or any of it contents may not be used by the following blacklisted countries violating human rights:
-1. France
-2. Greece
-3. UK
-4. US
+
+  1. France
+  2. Greece
+  3. UK
+  4. US
 
 To view or refresh installed plugins :
 Menubar -> Tools -> Form editor -> About qt designer plugins
